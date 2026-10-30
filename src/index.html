@@ -7,42 +7,73 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container">
-    <h1>Gestor d'Elements</h1>
+<!--    Fotos títol-->
+<h1>
+    <img src="laligaattll.png" alt="" width="600" height="200">
+    <img src="hacendado6767.png" alt="" width="500" height="200">
+</h1>
 
-    <!-- Formulari d'entrada de dades -->
+<div class="panell">
+
+<!--    Taula on entren els equips-->
     <div class="card">
-        <h2>Afegir Nou Element</h2>
 
-        <div class="field">
-            <label for="iNom">Nom / Títol:</label>
-            <input type="text" id="iNom" placeholder="Escriu un nom...">
+        <div class="field2">
+            <label for="iNom" style="font-size: 25px">Nom de l'equip</label>
+            <input type="text" id="iNom" placeholder="Escriu el nom el de l'equip" autofocus>
         </div>
 
-        <div class="field">
-            <label for="sCategoria">Categoria:</label>
-            <select id="sCategoria">
-                <option value="Opció A">Opció A</option>
-                <option value="Opció B">Opció B</option>
-                <option value="Opció C">Opció C</option>
-            </select>
+        <div class="field2">
+            <label for="iPartitsJ">Partits Jugats</label>
+            <input type="number" id="iPartitsJ" value="0" min="0">
         </div>
 
-        <div class="field">
-            <label for="iValor">Valor / Preu / Punts:</label>
-            <input type="number" id="iValor" value="0">
+        <div class="field2">
+            <label for="iPunts">Punts</label>
+            <input type="number" id="iPunts" value="0" min="0">
         </div>
 
-        <div class="field-checkbox">
-            <label>
-                <input type="checkbox" id="cEstat"> Actiu / Completat
-            </label>
+        <div class="field2">
+            <label for="iGolsf">Gols a favor</label>
+            <input type="number" id="iGolsf" value="0" min="0">
         </div>
 
-        <button id="btnAfegir">Afegir a la Llista</button>
+        <div class="field2">
+            <label for="iGolsc">Gols en contra</label>
+            <input type="number" id="iGolsc" value="0" min="0">
+        </div>
+
+        <button id="btnAfegir" style="font-size: 25px">Afegir a la Llista</button>
+    <div class="botonsCard">
+
+        <button onclick="OrdenarPTS()" class="botOrdenar">Ordenar per punts</button>
+        <button onclick="OrdenarGOLS()" class="botOrdenar">Ordenar per gols</button>
+
+        </div>
+        <div class="llegendaCard">
+            <div class="ChampionsLL"><h6>Champions League</h6> </div>
+            <div class="EuropaLeageLL"><h6>Europa League</h6></div>
+            <div class="ConferenceLeageLL"><h6>Conference League</h6></div>
+            <div class="aSegundaTahLL"><h6>Descens</h6></div>
+        </div>
     </div>
+<div>
+    <div class="Eshtadishticash">
+        <h4>Nom</h4> <h4>PJ</h4> <h4>Pts</h4> <h4>GF/GC</h4>
+    </div>
+    <div id='contenidorEquips' class='Equips67'></div>
+</div>
+<div>
+    <div class="Eshtadishticash">
+        <h4>Nom</h4> <h4>PJ</h4> <h4>Pts</h4> <h4>GF/GC</h4>
+    </div>
+    <div id='contenidorEquips2' class='Equips6767'></div>
 
 </div>
+</div>
+
+
+
 
 <script src="app.js"></script>
 </body>

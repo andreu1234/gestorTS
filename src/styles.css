@@ -6,8 +6,8 @@
 
 body {
     font-family: system-ui, -apple-system, sans-serif;
-    background-color: #f1f5f9;
-    color: #334155;
+    background-color: #edf2f4;
+    color: #1c1d2b;
     padding: 20px;
 }
 
@@ -21,13 +21,15 @@ body {
 
 h1 {
     text-align: center;
-    color: #0f172a;
+    color: #2b2d42;
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
+    background: #8d99ae;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 18px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
@@ -50,8 +52,8 @@ h1 {
 }
 
 label {
-    font-size: 0.85rem;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 input[type="text"],
@@ -66,7 +68,7 @@ select {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #2563eb;
+    background-color: #f44242;
     color: white;
     border: none;
     border-radius: 6px;
@@ -75,7 +77,7 @@ button {
 }
 
 button:hover {
-    background-color: #1d4ed8;
+    background-color: #ea6373;
 }
 
 .llista-grid {
@@ -98,6 +100,7 @@ button:hover {
     font-size: 0.85rem;
     color: #64748b;
     margin-top: 2px;
+
 }
 
 .btn-esborrar {
@@ -110,3 +113,236 @@ button:hover {
 .btn-esborrar:hover {
     background-color: #dc2626;
 }
+
+.panell{;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+    margin: 10px;
+    align-items: flex-start;
+
+}
+
+.field2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+.RankingC1 {
+    display: grid;
+    background: #007fe6;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+h3 {
+    color: #2b2d42;
+    font-size: 1.5rem ;
+    font-weight: bold;
+
+}
+
+.Equips67{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    border-radius: 18px;
+}
+
+.card67{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Eshtadishticash{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 1px;
+    text-align: left;
+}
+
+h4 {
+    color: #2b2d42;
+    font-size: 22px ;
+    font-weight: bold;
+    text-align: left;
+}
+.botonsCard{
+    display: grid;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.botOrdenar{
+    padding: 10px;
+    background-color: rgb(0 0 0 / 0.86);
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    gap: 22px
+
+}
+
+.botOrdenar:hover {
+    background-color: #423e3e;
+}
+
+.card6767{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #007fe6;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Champions{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #007fe6;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.EuropaLeage{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #eba657;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.ConferenceLeage{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #30b91d;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Normal{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #bcbff8;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.aSegundaTah{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    flex-direction: column;
+    background: #ff0004;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.llegendaCard{
+    display: grid;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+h6{
+    color: #2b2d42;
+    font-size: 1rem ;
+    font-weight: bold;
+    /*text-align: center;*/
+
+}
+
+.ChampionsLL{
+    background: #007fe6;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.EuropaLeageLL{
+    background: #eba657;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.ConferenceLeageLL{
+    background: #30b91d;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.aSegundaTahLL{
+    background: #ff0004;
+    margin: 7px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
