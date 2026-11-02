@@ -146,13 +146,7 @@ h3 {
 
 }
 
-.Equips67{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 10px;
-    border-radius: 18px;
-}
-
-.card67{
+.primeraCol{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
     flex-direction: column;
@@ -200,7 +194,7 @@ h4 {
     background-color: #423e3e;
 }
 
-.card6767{
+.segonaCol{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
     flex-direction: column;

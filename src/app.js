@@ -127,20 +127,6 @@ let llistaEquips = [
         "golsc": 14,
         "partitsjugats": 10
     },
-    {
-        "nom": "València",
-        "punts": 6,
-        "golsf": 7,
-        "golsc": 17,
-        "partitsjugats": 10
-    },
-    {
-        "nom": "Málaga",
-        "punts": 5,
-        "golsf": 7,
-        "golsc": 19,
-        "partitsjugats": 10
-    }
 ];
 // 2. Funció per llegir el formulari i afegir un nou element a l'array
 function afegirElement() {
@@ -177,7 +163,7 @@ function actualitzarUI() {
     html2 = '';
     for (let i = 0; i < llistaEquips.length; i++) {
         if (i < 4) {
-            html += '<div class=\'card67 Champions\'>';
+            html += '<div class=\'primeraCol Champions\'>';
             html += '<h2>' + llistaEquips[i].nom + '</h2>';
             html += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html += '<h3>' + llistaEquips[i].punts + '</h3>';
@@ -186,7 +172,7 @@ function actualitzarUI() {
             html += '<\/div>';
         }
         else if (i == 4) {
-            html += '<div class=\'card67 EuropaLeage\'>';
+            html += '<div class=\'primeraCol EuropaLeage\'>';
             html += '<h2>' + llistaEquips[i].nom + '</h2>';
             html += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html += '<h3>' + llistaEquips[i].punts + '</h3>';
@@ -195,7 +181,7 @@ function actualitzarUI() {
             html += '<\/div>';
         }
         else if (i == 5) {
-            html += '<div class=\'card67 ConferenceLeage\'>';
+            html += '<div class=\'primeraCol ConferenceLeage\'>';
             html += '<h2>' + llistaEquips[i].nom + '</h2>';
             html += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html += '<h3>' + llistaEquips[i].punts + '</h3>';
@@ -204,7 +190,7 @@ function actualitzarUI() {
             html += '<\/div>';
         }
         else if (i < 10) {
-            html += '<div class=\'card67 Normal\'>';
+            html += '<div class=\'primeraCol Normal\'>';
             html += '<h2>' + llistaEquips[i].nom + '</h2>';
             html += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html += '<h3>' + llistaEquips[i].punts + '</h3>';
@@ -213,7 +199,7 @@ function actualitzarUI() {
             html += '<\/div>';
         }
         else if (i < 17) {
-            html2 += '<div class=\'card6767 Normal\'>';
+            html2 += '<div class=\'segonaCol Normal\'>';
             html2 += '<h2>' + llistaEquips[i].nom + '</h2>';
             html2 += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html2 += '<h3>' + llistaEquips[i].punts + '</h3>';
@@ -222,7 +208,7 @@ function actualitzarUI() {
             html2 += '<\/div>';
         }
         else {
-            html2 += '<div class=\'card6767 aSegundaTah\'>';
+            html2 += '<div class=\'segonaCol aSegundaTah\'>';
             html2 += '<h2>' + llistaEquips[i].nom + '</h2>';
             html2 += '<h3>' + llistaEquips[i].partitsjugats + '</h3>';
             html2 += '<h3>' + llistaEquips[i].punts + '</h3>';
